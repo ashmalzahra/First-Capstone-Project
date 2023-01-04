@@ -1,303 +1,313 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
-.ham-burger{
-    padding-left: 15px;
-    background: transparent;
-    border: none;
-    font-size: 25px;
-    margin-top: 5px;
-    position: fixed;
+.ham-burger {
+  padding-left: 15px;
+  background: transparent;
+  border: none;
+  font-size: 25px;
+  margin-top: 5px;
+  position: fixed;
 }
 
-.front-page{
-    background-image: url(images/close-up-female-hand-using-laptop-keyboard-with-creative-glowing-business-chart-interface-hologram-blurry-background-company-digital-data-guide-computer-analysis-concept-double-exposure_670147-13465.webp);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(192, 192, 192, 0.69);
-    margin: 0;
+.front-page {
+  background-image: url(images/close-up-female-hand-using-laptop-keyboard-with-creative-glowing-business-chart-interface-hologram-blurry-background-company-digital-data-guide-computer-analysis-concept-double-exposure_670147-13465.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(192, 192, 192, 0.69);
+  margin: 0;
 }
 
-.heading2{
-    padding-left: 15px;
-    padding-top: 70px;
-    font-size: 20px;
-    color: #ec5242;
-    font-weight: 800;
-    font-family: 'Lato', sans-serif;
+.heading2 {
+  padding-left: 15px;
+  padding-top: 70px;
+  font-size: 20px;
+  color: #ec5242;
+  font-weight: 800;
+  font-family: 'Lato', sans-serif;
 }
 
-.front{
-    margin-top: 0;
+.front {
+  margin-top: 0;
 }
 
-.heading3{
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 32px;
-    color: #ec5242;
-    font-weight: bolder;
-    margin-top: 0;
-    font-family: 'COCOGOOSE', sans-serif;;
+.heading3 {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 32px;
+  color: #ec5242;
+  font-weight: bolder;
+  margin-top: 0;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
-.font-description{
-    margin: 15px 20px;
-    padding: 15px 12px;
-    background-color: #c0c0c0b0;
-    border: 1px solid white;
-    font-size: 15px;
-    font-weight: 500;
-    font-family: 'Lato', sans-serif;
+.font-description {
+  margin: 15px 20px;
+  padding: 15px 12px;
+  background-color: #c0c0c0b0;
+  border: 1px solid white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
 }
 
 .heading4 {
-    padding-left: 15px;
-    font-weight: 600;
-    font-size: 25px;
-    color: #272a31;
-    padding-bottom: 35px;
-    margin-bottom: 0;
+  padding-left: 15px;
+  font-weight: 600;
+  font-size: 25px;
+  color: #272a31;
+  padding-bottom: 35px;
+  margin-bottom: 0;
 }
 
 .main-page {
-    background-color: #272a31;
-    color: white;
-    padding-bottom: 55px;
+  background-color: #272a31;
+  color: white;
+  padding-bottom: 55px;
 }
 
-.service-text{
-    font-weight: 800;
-    margin: 0 auto;
-    padding-top: 20px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
+.service-text {
+  font-weight: 800;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
-#main{
-    background-color: #f30000;
-    width: 10%;
+#main {
+  background-color: #f30000;
+  width: 10%;
 }
 
-#e-line{
-    background-color: #f30000;
-    width: 10%;
+#e-line {
+  background-color: #f30000;
+  width: 10%;
 }
+
 .service {
-    display: flex;
-    text-align: center;
-    background-color: #d3d3d31f;
-    margin-bottom: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-    justify-content: space-between;
+  display: flex;
+  text-align: center;
+  background-color: #d3d3d31f;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-between;
 }
 
-.icon-para{
-    max-width: 171px;
-    padding: 10px 10px;
-    text-align: initial;
-    font-family: 'Lato', sans-serif;
+.icon-para {
+  max-width: 171px;
+  padding: 10px 10px;
+  text-align: initial;
+  font-family: 'Lato', sans-serif;
 }
 
 .icon {
-    float: left;
-    /* padding-left: 5px; */
-    padding-right: 5px;
-    color: #ec5242;
-    font-size: medium;
-    font-weight: 800;
-    padding-top: 14px;
-    /* min-width: 27px; */
-    font-weight: bold;
+  float: left;
+
+  /* padding-left: 5px; */
+  padding-right: 5px;
+  color: #ec5242;
+  font-size: medium;
+  padding-top: 14px;
+
+  /* min-width: 27px; */
+  font-weight: bold;
 }
 
 #start {
-    padding: 30px 100px;
-    background-color: #ec5242;
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin: 0px auto;
-    border: none;
-    font-weight: bolder;
-    font-size: 22px;
-    font-family: 'COCOGOOSE', sans-serif;
+  padding: 30px 100px;
+  background-color: #ec5242;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border: none;
+  font-weight: bolder;
+  font-size: 22px;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
-.experts-page{
-    padding-bottom: 30px;
+.experts-page {
+  padding-bottom: 30px;
 }
 
-.wrapper{
-    margin: 30px 10px;
-}
-.img-item{
-    float: left; 
-    /* margin-right: 10px; */
-    /* width: 149%; */
-    /* position: relative; */
-    left: 8%;
-    top: 10%;
-    /* width: 123%; */
-    position: relative;
-    /* left: 15%; */
-    /* top: 46%; */
-    width: 85%;
+.wrapper {
+  margin: 30px 10px;
 }
 
-.description{
-    display: flex;
-    flex-direction: column;
-    max-width: 45%;
+.img-item {
+  float: left;
+
+  /* margin-right: 10px; */
+
+  /* width: 149%; */
+
+  /* position: relative; */
+  left: 8%;
+  top: 10%;
+
+  /* width: 123%; */
+  position: relative;
+
+  /* left: 15%; */
+
+  /* top: 46%; */
+  width: 85%;
 }
 
-.description-heading{
-    font-weight: bolder;
-    margin: 0;
-    font-family: 'Lato', sans-serif;
+.description {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+}
+
+.description-heading {
+  font-weight: bolder;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .email {
-    color: #ec5242;
-    margin: 2px 0;
-    border-bottom: 1px solid #777;
-    width: 15%;
+  color: #ec5242;
+  margin: 2px 0;
+  border-bottom: 1px solid #777;
+  width: 15%;
 }
 
-#expert{
-    text-align: center;
-    font-weight: bold;
-    font-size: large;
-    padding-top: 20px;
-    font-family: 'Lato', sans-serif;
+#expert {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  padding-top: 20px;
+  font-family: 'Lato', sans-serif;
 }
 
-.item{
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-    display: flex;
+.item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  display: flex;
 }
 
-.description-paragraph{
-    font-family: 'Lato', sans-serif;
+.description-paragraph {
+  font-family: 'Lato', sans-serif;
 }
 
-#more{
-    border: 1px solid #d3d3d3;
-    background-color: transparent;
-    /* width: 197px; */
-    text-align: center;
-    margin: 0 auto;
-    /* margin: 0 15px; */
-    /* width: 365px; */
-    padding: 15px 150px;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    font-size: medium;
+#more {
+  border: 1px solid #d3d3d3;
+  background-color: transparent;
+
+  /* width: 197px; */
+  text-align: center;
+  margin: 0 auto;
+
+  /* margin: 0 15px; */
+
+  /* width: 365px; */
+  padding: 15px 150px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: medium;
 }
 
-.glyphicon-menu-down{
-    color: #ec5242;
-}
- .et-pb-icon {
-    background: transparent;
-    font-size: 32px;
-    color: #fa5e5d;
-    background-color: rgba(250,94,93,0.3);
+.glyphicon-menu-down {
+  color: #ec5242;
 }
 
-.summary-page{
-    background-image: url(images/close-up-female-hand-using-laptop-keyboard-with-creative-glowing-business-chart-interface-hologram-blurry-background-company-digital-data-guide-computer-analysis-concept-double-exposure_670147-13465.webp);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(192, 192, 192, 0.69);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.et-pb-icon {
+  background: transparent;
+  font-size: 32px;
+  color: #fa5e5d;
+  background-color: rgba(250, 94, 93, 0.3);
+}
+
+.summary-page {
+  background-image: url(images/close-up-female-hand-using-laptop-keyboard-with-creative-glowing-business-chart-interface-hologram-blurry-background-company-digital-data-guide-computer-analysis-concept-double-exposure_670147-13465.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(192, 192, 192, 0.69);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .centre-b {
-    border: 1px solid #c0c0c0b0;
-    background-color: white;
-    padding: 5px;
-    margin: 20px 20px;
-    font-family: 'Lato', sans-serif;
+  border: 1px solid #c0c0c0b0;
+  background-color: white;
+  padding: 5px;
+  margin: 20px 20px;
+  font-family: 'Lato', sans-serif;
 }
 
-.p-a{
-    color: #272a31;
-    font-weight: bold;
-    text-decoration: underline;
-    font-family: 'Lato', sans-serif;
+.p-a {
+  color: #272a31;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: 'Lato', sans-serif;
 }
 
-.logo-page{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.logo-page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.logo-text{
-    margin-bottom: 0;
-    font-weight: bold;
-    font-family: 'COCOGOOSE', sans-serif;
+.logo-text {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
-#logo{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    border: 1px solid #d3d3d3;
-    margin: 0 20px 25px 20px;
+#logo {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #d3d3d3;
+  margin: 0 20px 25px 20px;
 }
 
-#straight{
-    background: #d3d3d3;
+#logo-line {
+  background-color: #f30000;
+  width: 10%;
 }
 
-#logo-line{
-    background-color: #f30000;
-    width: 10%;
+.logo-img {
+  max-width: 180px;
+  height: auto;
 }
 
-.logo-img{
-    max-width: 180px;
-    height: auto;
+#straight {
+  width: 100%;
+  background: #d3d3d3ef;
 }
 
-#straight{
-    width: 100%;
-    color: #777;
+.project {
+  font-weight: bold;
+  margin-bottom: 0;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
-.project{
-    font-weight: bold;
-    margin-bottom: 0;
-    font-family: 'COCOGOOSE', sans-serif;
+#project-line {
+  background-color: #f30000;
+  width: 10%;
 }
 
-#project-line{
-    background-color: #f30000;
-    width: 10%;
+.container-para {
+  padding-bottom: 40px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
 
-.container-para{
-    padding-bottom: 40px;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
+.container-img {
+  max-width: 340px;
+  height: auto;
+
+  /* background: transparent; */
+  opacity: 0.23;
+  background: white;
 }
 
-.container-img{
-    max-width: 340px;
-    height: auto;
-    opacity: 0.;
-    /* background: transparent; */
-    opacity: 0.23;
-    background: white;
-}
 /* #one{
     background-image: url(images/skylark-online-marketing.png);
     background-color: rgba(233, 57, 38, 0.0);
@@ -305,102 +315,105 @@
 } */
 
 .container {
-    padding-right: 55px;
-    padding-left: 55px;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    text-align: center;
-    color: white;
-    margin-bottom: 50px;
-    border: 1px solid transparent;
-
+  padding-right: 55px;
+  padding-left: 55px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  border: 1px solid transparent;
 }
 
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 24px;
-    font-weight: bolder;
-    text-align: center;
-    font-family: 'COCOGOOSE', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
-#one{
-    padding: 0;
-    box-shadow: inset 0 0 0 1000px rgb(255 0 0);
+#one {
+  padding: 0;
+  box-shadow: inset 0 0 0 1000px rgb(255 0 0);
 }
 
-#two{
-    padding: 0;
-    box-shadow: inset 0 0 0 1000px rgb(255 0 0);
+#two {
+  padding: 0;
+  box-shadow: inset 0 0 0 1000px rgb(255 0 0);
 }
 
-.clients{
-    background-color: #272a31;
-    color: white;
-    padding: 10px ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.clients {
+  background-color: #272a31;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.c-l{
-    margin-bottom: 0;
-    font-family: 'COCOGOOSE', sans-serif;
+.c-l {
+  margin-bottom: 0;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
-.clients-img{
-    max-width: 70px;
-    height: auto;
-    margin-right: 3px;
-}
-.partner{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px 55px;
-    justify-content: center;
+.clients-img {
+  max-width: 70px;
+  height: auto;
+  margin-right: 3px;
 }
 
-#clients-line{
-    background-color: #f30000;
-    width: 10%;
+.partner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 55px;
+  justify-content: center;
 }
 
-.end{
-    display: flex;
-    padding: 17px;
-}
-.end-img{
-    max-width: 113px;
-    margin: 0 auto;
+#clients-line {
+  background-color: #f30000;
+  width: 10%;
 }
 
-.end-para{
-    padding-left: 22px;
-    padding-right: 15px;
-    font-family: 'Lato', sans-serif;
+.end {
+  display: flex;
+  padding: 17px;
+}
+
+.end-img {
+  max-width: 113px;
+  margin: 0 auto;
+}
+
+.end-para {
+  padding-left: 22px;
+  padding-right: 15px;
+  font-family: 'Lato', sans-serif;
 }
 
 .chess {
-    width: 55%;
-    background-image: url(images/chess-bg.png);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    /* min-width: 24%; */
-    /* background-image: url(./images/chess-bg.png); */
-    background-repeat: no-repeat;
-    background-size: 40%;
+  width: 55%;
+  background-image: url(images/chess-bg.png);
+
+  /* background-size: 50%; */
+
+  /* min-width: 24%; */
+
+  /* background-image: url(./images/chess-bg.png); */
+  background-repeat: no-repeat;
+  background-size: 40%;
 }
 
-.images{
-    font-size: 32px;
-    color: #ec5242;
-    background-color: #272a31;
-    opacity: 1;
-    padding: 25px;
-    border-radius: 100%;
-    line-height: 1;
+.images {
+  font-size: 32px;
+  color: #ec5242;
+  background-color: #272a31;
+  opacity: 1;
+  padding: 25px;
+  border-radius: 100%;
+  line-height: 1;
 }
