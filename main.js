@@ -15,7 +15,6 @@ function hideMenu(){
 
 
 
-
 menuBtn.addEventListener('click', showMenu)
 closeBtn.addEventListener('click', hideMenu)
 links.addEventListener('click', hideMenu)
