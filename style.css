@@ -1,6 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
-.ham-burger {
+#ham-burger {
   padding-left: 15px;
   background: transparent;
   border: none;
@@ -431,11 +431,51 @@
 }
 
 @media (max-width:767px) {
+  .mobile-links{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* bottom: 0; */
+    font-size: xxx-large;
+    font-weight: bold;
+    /* margin: 0 auto; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: white;
+    background: #272a31;
+    /* margin: 0 auto; */
+    padding: 60px;
+  }
   .desktop-navbar{
     display: none;
   }
+
+  .cross{
+    padding: 0;
+    margin: none;
+    border-bottom-width: 0px;
+    /* background: lavenderblush; */
+    background: #272a31;
+    border: none;
+    align-self: end;
+  }
+  .mob-link{
+    border-bottom: 2px solid #ec5242;
+    color: white;
+    /* margin: 0 auto; */
+    margin: 20px 0;
+  }
+
   .desktop-nav{
-    display: none;
+    width: 100%;
+    /* height: 100%; */
+    /* z-index: 1; */
+    /* height: 123vh; */
+    /* width: 100vw; */
+    position: fixed;
+    bottom: 0;
+    top: 0;
   }
   .desktop-text{
     display: none;
@@ -447,8 +487,14 @@
     display: flex;
     align-items: center;
   }
-  
+  .desktop-logo{
+    display: none;
+  }
+  .desktop-links{
+    display: none;
+  }
 }
+
 .icon-label{
   font-size: medium;
   font-weight: bolder;
@@ -461,8 +507,10 @@
     width: 100%;
     z-index: 1;
   }
-
-  .ham-burger{
+  .mobile-links{
+    display: none;
+  }
+  #ham-burger{
     display: none;
   }
   .icon{
