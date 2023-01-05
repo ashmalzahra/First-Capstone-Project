@@ -108,16 +108,12 @@
 }
 
 .icon {
-  float: left;
-
-  /* padding-left: 5px; */
-  padding-right: 5px;
-  color: #ec5242;
-  font-size: medium;
-  padding-top: 14px;
-
-  /* min-width: 27px; */
-  font-weight: bold;
+  padding-left: 5px;
+    padding-right: 5px;
+    color: #ec5242;
+    font-size: medium;
+    /* min-width: 27px; */
+    /* font-weight: bold; */
 }
 
 #start {
@@ -444,6 +440,19 @@
   .desktop-text{
     display: none;
   }
+  .images{
+    height: fit-content;
+  }
+  .icon{
+    display: flex;
+    align-items: center;
+  }
+  
+}
+.icon-label{
+  font-size: medium;
+  font-weight: bolder;
+  margin: 0 auto;
 }
 
 @media (min-width:768px) {
@@ -455,6 +464,13 @@
 
   .ham-burger{
     display: none;
+  }
+  .icon{
+    margin-top: 5%;
+  }
+
+  .icon-label{
+    padding: 10px 0;
   }
   .desktop-navbar {
     display: flex;
