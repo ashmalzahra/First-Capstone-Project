@@ -75,13 +75,19 @@
 }
 
 #main {
-  background-color: #f30000;
-  width: 10%;
+  width: 40px;
+    border-width: 1px;
+    border-color: #f3440d;
+    background-color: #f3440d;
+    margin-inline: auto;
 }
 
 #e-line {
-  background-color: #f30000;
-  width: 10%;
+  width: 40px;
+    border-width: 1px;
+    border-color: #f3440d;
+    background-color: #f3440d;
+    margin-inline: auto;
 }
 
 .service {
@@ -115,7 +121,7 @@
 }
 
 #start {
-  padding: 30px 100px;
+  padding: 25px 50px;
   background-color: #ec5242;
   color: white;
   display: flex;
@@ -170,8 +176,6 @@
 .email {
   color: #ec5242;
   margin: 2px 0;
-  border-bottom: 1px solid #777;
-  width: 15%;
 }
 
 #expert {
@@ -349,8 +353,8 @@
 
 .clients {
   background-color: #272a31;
-  color: white;
-  padding: 10px;
+  color: #d3d3d3;
+  padding: 35px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -362,7 +366,7 @@
 }
 
 .clients-img {
-  max-width: 70px;
+  max-width: 85px;
   height: auto;
   margin-right: 3px;
 }
@@ -370,13 +374,25 @@
 .partner {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px 55px;
+  /* gap: 20px 55px;
+  justify-content: center; */
   justify-content: center;
+    gap: 3rem;
 }
 
 #clients-line {
-  background-color: #f30000;
-  width: 10%;
+  width: 40px;
+  border-width: 1px;
+  border-color: #f3440d;
+  background-color: #f3440d;
+  margin-inline: auto;
+}
+.chess-line{
+  border: 1.5px solid #d9d9d9;
+    background-color: #d9d9d9;
+    width: 2rem;
+    margin-bottom: 0.8rem;
+    margin: 0;
 }
 
 .end {
@@ -416,4 +432,163 @@
   padding: 25px;
   border-radius: 100%;
   line-height: 1;
+}
+
+@media (max-width:767px) {
+  .desktop-navbar{
+    display: none;
+  }
+  .desktop-nav{
+    display: none;
+  }
+  .desktop-text{
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .top-nav{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .ham-burger{
+    display: none;
+  }
+  .desktop-navbar {
+    display: flex;
+    align-items: flex-end;
+    gap: 1;
+    color: white;
+    font-size: small;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    justify-content: flex-end;
+    /* margin: 0 auto; */
+    align-items: center;
+    /* vertical-align: middle; */
+    gap: 15px;
+    /* padding: 15px; */
+    /* margin-right: 20px; */
+    padding-right: 55px;
+  }
+  .background{
+    width: 100%;
+    background: #272a31;
+  }
+  .desktop-logo{
+    max-width: 150px;
+    height: auto;
+  }
+  .desktop-nav{
+    background: white;
+    color: #272a31;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 100px;
+    align-items: center;
+  }
+  .desktop-links{
+    line-height: 50px;
+    margin-right: 5px;
+    color:#272a31;
+    text-decoration: none;
+    font-size: medium;
+  }
+  #red{
+    color: #ec5242;
+  }
+  .border{
+    border: 2px solid #ec5242;
+    border-width: 3px;
+  }
+  .link{
+    color: #272a31;
+    padding: 8px 10px;
+  }
+  .heading2{
+    font-size: x-large;
+  }
+  .heading3{
+    max-width: 595px;
+    font-size: xxx-large;
+  }
+  .font-description{
+    max-width: 500px;
+  }
+  .heading4{
+    font-size: x-large;
+  }
+  .desktop-padding{
+    padding-left: 130px;
+    padding-top: 100px;
+  }
+  .service{
+    flex-direction: column;
+    justify-content: start;
+    /* margin: 0; */
+    /* flex-shrink: 11; */
+    /* flex-grow: 7; */
+    /* max-width: 80%; */
+    margin: 0;
+  }
+  .icon-para{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+.wrap{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.2rem;
+    /* margin-bottom: 4rem; */
+    /* margin: 0 auto; */
+    /* margin: 0 2%; */
+    /* max-width: 100%; */
+    /* justify-content: space-around; */
+    padding: 0 10;
+    padding: 0 5%;
+}
+
+#start{
+  display: none;
+}
+.desktop-text{
+  display: flex;
+  color: white;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: medium;
+  line-height: 50px;
+  padding: 10px 5px;
+  justify-content: center;
+}
+
+.wrapper{
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  display: grid;
+    column-gap: 12%;
+}
+.chess{
+  width: 50%;
+}
+
+#more{
+  display: none;
+}
+
+.partner{
+  flex-wrap: nowrap;
+}
+.end{
+  justify-content: center;
+}
+.end-img{
+  margin: 0;
+}
+.end-para{
+  padding-left: 50px;
+}
 }
