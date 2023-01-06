@@ -9,6 +9,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
+    <script src="services.js" defer></script>
+    <script src="enable.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="js/bootstrap.min.js" defer></script>
@@ -30,7 +32,7 @@
                   
             </nav>
             <div class="desktop-nav">
-                <button type="button" id="ham-burger">
+                <button type="button" class="ham-burger"  id="desk">
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </button>
             <a href="">
@@ -121,58 +123,16 @@
         <h3 id="expert">TALK TO EXPERT</h3>
         <hr id="e-line">
         <div class="wrapper">
-            <div class="item">
-                <div class="chess">
-                    <img class="img-item" src="images/quality.jpeg" alt="">
-                </div>
-                <div class="description">
-                    <h5 class="description-heading">QUALITY APPROACH</h5>
-                    <a class="email" href="">info@techin.com</a>
-                    <hr class="chess-line">
-                    <p class="description-paragraph">Our Social Media Agency has a professional team with skills
-                        inherent to each member.</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="chess">
-                    <img class="img-item" src="images/The-Product-Design-Process.webp" alt="design process">
-                </div>
-                <div class="description">
-                    <h5 class="description-heading">DESIGN OF YOUR PRODUCT</h5>
-                    <a class="email" href="">info@techin.com
-                    </a>
-                    <hr class="chess-line">
-                    <p class="description-paragraph">An upstream research is set up to study your
-                        industry's web and marketing environment.</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="chess">
-                    <img class="img-item" src="images/IC-OG-ProjectStatusReport.jpg" alt="tracking">
-                </div>
-                <div class="description">
-                    <h5 class="description-heading">KEEPING TRACK</h5>
-                    <a class="email" href="">info@techin.com</a>
-                    <hr class="chess-line">
-                    <p class="description-paragraph">We keep you updated on the creation progress during development
-                        phase.</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="chess">
-                    <img class="img-item" src="images/pm.png" alt="project management">
-                </div>
-                <div class="description">
-                    <h5 class="description-heading">PROJECT MONITORING</h5>
-                    <a class="email" href="">info@techin.com</a>
-                    <hr class="chess-line">
-                    <p class="description-paragraph">For smooth development, we offer personal follow-up with a
-                        privileged interlocutor.</p>
-                </div>
-            </div>
+            <article class="speaker-sec"></article>
+            <article class= "add-speaker-sec mob-none"></article>
         </div>
         <button type="button" id="more">
-            MORE <span class="glyphicon glyphicon-menu-down"></span>
+            <span class="less-info">MORE 
+                <i class = "glyphicon glyphicon-menu-down"></i>
+            </span>
+            <span class="more-info mob-none">LESS
+                <i class = "glyphicon glyphicon-menu-down"></i>  
+            </span>
         </button>
     </section>
     <section class="clients">
