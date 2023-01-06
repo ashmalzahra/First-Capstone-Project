@@ -1,5 +1,15 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
+#decoration {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+
+a:hover {
+  margin: 2px 2px;
+  font-weight: bold;
+}
+
 .ham-burger {
   padding-left: 15px;
   background: transparent;
@@ -25,6 +35,10 @@
   color: #ec5242;
   font-weight: 800;
   font-family: 'Lato', sans-serif;
+  background-image: url(images/text-background.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: space;
 }
 
 .front {
@@ -32,6 +46,9 @@
 }
 
 .heading3 {
+  background-image: url(images/text-background.jpg);
+
+  /* -webkit-text-fill-color: transparent; */
   padding-left: 15px;
   padding-right: 15px;
   font-size: 32px;
@@ -39,6 +56,9 @@
   font-weight: bolder;
   margin-top: 0;
   font-family: 'COCOGOOSE', sans-serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: space;
 }
 
 .font-description {
@@ -163,6 +183,7 @@
   display: flex;
   flex-direction: column;
   max-width: 45%;
+  justify-content: center;
 }
 
 .description-heading {
@@ -188,6 +209,7 @@
   margin-bottom: 15px;
   padding-bottom: 15px;
   display: flex;
+  margin-top: 15px;
 }
 
 .description-paragraph {
@@ -212,7 +234,7 @@
   font-size: medium;
 }
 
-.glyphicon-menu-down {
+i {
   color: #ec5242;
 }
 
@@ -388,11 +410,10 @@
 }
 
 .chess-line {
-  border: 1.5px solid #d9d9d9;
-  background-color: #d9d9d9;
-  width: 2rem;
-  margin-bottom: 0.8rem;
-  margin: 0;
+  border: 1.5px solid rgb(217, 217, 217);
+  background-color: rgb(217, 217, 217);
+  width: 2.5rem;
+  margin: 5px;
 }
 
 .end {
@@ -435,10 +456,10 @@
 }
 
 .add-speaker-sec.open {
-  display: block;
+  display: grid;
 }
 
-.mob-none{
+.mob-none {
   display: none;
 }
 
@@ -450,27 +471,16 @@
   display: block;
 }
 
-
 @media (max-width: 767px) {
   .mobile-links {
     display: none;
     flex-direction: column;
     width: 100%;
     height: 100%;
-
-    /* bottom: 0; */
     font-size: xxx-large;
     font-weight: bold;
-
-    /* margin: 0 auto; */
-
-    /* justify-content: center; */
-
-    /* align-items: center; */
     color: white;
     background: #272a31;
-
-    /* margin: 0 auto; */
     padding: 60px;
   }
 
@@ -480,13 +490,10 @@
 
   .cross {
     padding: 0;
-    margin: none;
-    border-bottom-width: 0;
-
-    /* background: lavenderblush; */
     background: #272a31;
     border: none;
     align-self: end;
+    color: #d3d3d3;
   }
 
   .mob-link {
@@ -515,9 +522,9 @@
     display: none;
   }
 
-  .images {
+  /* .images {
     height: fit-content;
-  }
+  } */
 
   .icon {
     display: flex;
@@ -540,6 +547,16 @@
 }
 
 @media (min-width: 768px) {
+  .service {
+    flex-direction: column;
+    justify-content: start;
+    margin: 0;
+  }
+
+  .service:hover {
+    border: 1px solid #d3d3d3;
+  }
+
   .top-nav {
     position: fixed;
     width: 100%;
@@ -553,7 +570,8 @@
   #desk {
     display: none;
   }
-  .add-speaker-sec{
+
+  .add-speaker-sec {
     display: block;
   }
 
@@ -567,24 +585,19 @@
 
   .desktop-navbar {
     display: flex;
-    align-items: flex-end;
-    gap: 1;
     color: white;
     font-size: small;
     font-family: 'Lato', sans-serif;
-    margin: 0 auto;
-    justify-content: flex-end;
 
     /* margin: 0 auto; */
+    justify-content: flex-end;
     align-items: center;
+    padding-right: 110px;
 
-    /* vertical-align: middle; */
-    gap: 15px;
+    /* justify-content: space-around; */
 
-    /* padding: 15px; */
-
-    /* margin-right: 20px; */
-    padding-right: 55px;
+    /* margin: 0 10%; */
+    gap: 1.5rem;
   }
 
   .background {
@@ -624,8 +637,14 @@
   }
 
   .link {
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+
+  #mid {
     color: #272a31;
     padding: 8px 10px;
+    text-decoration: none;
   }
 
   .heading2 {
@@ -650,20 +669,6 @@
     padding-top: 100px;
   }
 
-  .service {
-    flex-direction: column;
-    justify-content: start;
-
-    /* margin: 0; */
-
-    /* flex-shrink: 11; */
-
-    /* flex-grow: 7; */
-
-    /* max-width: 80%; */
-    margin: 0;
-  }
-
   .icon-para {
     text-align: center;
     margin: 0 auto;
@@ -673,17 +678,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 0.2rem;
-
-    /* margin-bottom: 4rem; */
-
-    /* margin: 0 auto; */
-
-    /* margin: 0 2%; */
-
-    /* max-width: 100%; */
-
-    /* justify-content: space-around; */
-    padding: 0 10;
     padding: 0 5%;
   }
 

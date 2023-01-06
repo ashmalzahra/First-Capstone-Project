@@ -83,5 +83,3 @@ addExperts.forEach((element) => {
 });
 
 addSpeakerSection.innerHTML = text2;
-
-
