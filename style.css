@@ -1,0 +1,798 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+body {
+  margin: 0;
+}
+
+#decoration {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+
+a:hover {
+  margin: 2px 2px;
+  font-weight: bold;
+}
+
+.ham-burger {
+  padding-left: 15px;
+  background: transparent;
+  border: none;
+  font-size: 25px;
+  margin-top: 5px;
+  position: fixed;
+}
+
+.front-page {
+  background-image: url(images/close-up-female-hand-using-laptop-keyboard-with-creative-glowing-business-chart-interface-hologram-blurry-background-company-digital-data-guide-computer-analysis-concept-double-exposure_670147-13465.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(192, 192, 192, 0.69);
+  margin: 0;
+}
+
+#only-main {
+  background-image: url(images/text-background.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: space;
+}
+
+.heading2 {
+  padding-left: 15px;
+  padding-top: 70px;
+  font-size: 20px;
+  color: #ec5242;
+  font-weight: 800;
+  font-family: 'Lato', sans-serif;
+}
+
+.front {
+  margin-top: 0;
+}
+
+.heading3 {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 32px;
+  color: #ec5242;
+  font-weight: bolder;
+  margin-top: 0;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.font-description {
+  margin: 15px 20px;
+  padding: 15px 12px;
+  background-color: #c0c0c0b0;
+  border: 1px solid white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+}
+
+.heading4 {
+  padding-left: 15px;
+  font-weight: 600;
+  font-size: 25px;
+  color: #272a31;
+  padding-bottom: 35px;
+  margin-bottom: 0;
+}
+
+.main-page {
+  background-color: #272a31;
+  color: white;
+  padding-bottom: 55px;
+}
+
+.service-text {
+  font-weight: 800;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+#main {
+  width: 40px;
+  border-width: 1px;
+  border-color: #f3440d;
+  background-color: #f3440d;
+  margin-inline: auto;
+}
+
+#e-line {
+  width: 40px;
+  border-width: 1px;
+  border-color: #f3440d;
+  background-color: #f3440d;
+  margin-inline: auto;
+}
+
+.service {
+  display: flex;
+  text-align: center;
+  background-color: #d3d3d31f;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+
+.icon-para {
+  max-width: 171px;
+  padding: 10px 10px;
+  text-align: initial;
+  font-family: 'Lato', sans-serif;
+}
+
+.icon {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #ec5242;
+  font-size: medium;
+
+  /* min-width: 27px; */
+
+  /* font-weight: bold; */
+}
+
+#start {
+  padding: 25px 50px;
+  background-color: #ec5242;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border: none;
+  font-weight: bolder;
+  font-size: 22px;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.experts-page {
+  padding-bottom: 30px;
+}
+
+.wrapper {
+  margin: 30px 10px;
+}
+
+.img-item {
+  float: left;
+
+  /* margin-right: 10px; */
+
+  /* width: 149%; */
+
+  /* position: relative; */
+  left: 8%;
+  top: 10%;
+
+  /* width: 123%; */
+  position: relative;
+
+  /* left: 15%; */
+
+  /* top: 46%; */
+  width: 85%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+  justify-content: center;
+}
+
+.description-heading {
+  font-weight: bolder;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.email {
+  color: #ec5242;
+  margin: 2px 0;
+}
+
+#expert {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  padding-top: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  margin-top: 15px;
+}
+
+.description-paragraph {
+  font-family: 'Lato', sans-serif;
+}
+
+#more {
+  border: 1px solid #d3d3d3;
+  background-color: transparent;
+
+  /* width: 197px; */
+  text-align: center;
+  margin: 0 auto;
+
+  /* margin: 0 15px; */
+
+  /* width: 365px; */
+  padding: 15px 150px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: medium;
+}
+
+i {
+  color: #ec5242;
+}
+
+.et-pb-icon {
+  background: transparent;
+  font-size: 32px;
+  color: #fa5e5d;
+  background-color: rgba(250, 94, 93, 0.3);
+}
+
+.summary-page {
+  background-image: url(images/close-up-female-hand-using-laptop-keyboard-with-creative-glowing-business-chart-interface-hologram-blurry-background-company-digital-data-guide-computer-analysis-concept-double-exposure_670147-13465.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(192, 192, 192, 0.69);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10%;
+}
+
+#no-width {
+  max-width: 595px;
+  margin: 0 auto;
+}
+
+.centre-b {
+  border: 1px solid #c0c0c0b0;
+  background-color: white;
+  padding: 5px;
+  margin: 20px 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.p-a {
+  color: #272a31;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: 'Lato', sans-serif;
+}
+
+.logo-page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo-text {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #d3d3d3;
+  margin: 0 20px 25px 20px;
+}
+
+#logo-line {
+  width: 40px;
+  border-width: 1px;
+  border-color: #f3440d;
+  background-color: #f3440d;
+  margin-inline: auto;
+}
+
+.logo-img {
+  max-width: 180px;
+  height: auto;
+}
+
+#straight {
+  width: 100%;
+  background: #d3d3d3ef;
+}
+
+.project {
+  font-weight: bold;
+  margin-bottom: 0;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+#project-line {
+  width: 40px;
+  border-width: 1px;
+  border-color: #f3440d;
+  background-color: #f3440d;
+  margin-inline: auto;
+}
+
+.container-para {
+  padding-bottom: 40px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.container-img {
+  max-width: 340px;
+  height: auto;
+
+  /* background: transparent; */
+  opacity: 0.23;
+  background: white;
+}
+
+/* #one{
+    background-image: url(images/skylark-online-marketing.png);
+    background-color: rgba(233, 57, 38, 0.0);
+    background-size: contain;
+} */
+
+.container {
+  padding-right: 55px;
+  padding-left: 55px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  border: 1px solid transparent;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+#one {
+  padding: 0;
+  box-shadow: inset 0 0 0 1000px rgb(255 0 0);
+}
+
+#two {
+  padding: 0;
+  box-shadow: inset 0 0 0 1000px rgb(255 0 0);
+}
+
+.clients {
+  background-color: #272a31;
+  color: #d3d3d3;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.c-l {
+  margin-bottom: 0;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.clients-img {
+  max-width: 85px;
+  height: auto;
+  margin-right: 3px;
+}
+
+.partner {
+  display: flex;
+  flex-wrap: wrap;
+
+  /* gap: 20px 55px;
+  justify-content: center; */
+  justify-content: center;
+  gap: 3rem;
+}
+
+#clients-line {
+  width: 40px;
+  border-width: 1px;
+  border-color: #f3440d;
+  background-color: #f3440d;
+  margin-inline: auto;
+}
+
+.chess-line {
+  border: 1.5px solid rgb(217, 217, 217);
+  background-color: rgb(217, 217, 217);
+  width: 2.5rem;
+  margin: 5px;
+}
+
+.end {
+  display: flex;
+  padding: 17px;
+}
+
+.end-img {
+  max-width: 113px;
+  margin: 0 auto;
+}
+
+.end-para {
+  padding-left: 22px;
+  padding-right: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+.chess {
+  width: 55%;
+  background-image: url(images/chess-bg.png);
+
+  /* background-size: 50%; */
+
+  /* min-width: 24%; */
+
+  /* background-image: url(./images/chess-bg.png); */
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.images {
+  font-size: 32px;
+  color: #ec5242;
+  background-color: #272a31;
+  opacity: 1;
+  padding: 25px;
+  border-radius: 100%;
+  line-height: 1;
+}
+
+.add-speaker-sec.open {
+  display: grid;
+}
+
+.add-speaker-sec1.open {
+  display: grid;
+}
+
+.mob-none {
+  display: none;
+}
+
+.less-info.open {
+  display: none;
+}
+
+.more-info.open {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .contain {
+    width: fit-content;
+    display: contents;
+  }
+
+  .mobile-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    background: #272a31;
+    padding: 75px;
+    position: fixed;
+  }
+
+  .desktop-navbar {
+    display: none;
+  }
+
+  .cross {
+    padding: 0;
+    background: #272a31;
+    border: none;
+    align-self: end;
+    color: #d3d3d3;
+  }
+
+  .mob-link {
+    border-bottom: 2px solid #ec5242;
+    color: white;
+
+    /* margin: 0 auto; */
+    margin: 20px 0;
+  }
+
+  .desktop-nav {
+    width: 100%;
+
+    /* height: 100%; */
+    z-index: 1;
+
+    /* height: 123vh; */
+
+    /* width: 100vw; */
+    position: absolute;
+    bottom: 0;
+    top: 0;
+  }
+
+  .desktop-text {
+    display: none;
+  }
+
+  /* .images {
+    height: fit-content;
+  } */
+
+  .icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop-logo {
+    display: none;
+  }
+
+  .desktop-links {
+    display: none;
+  }
+
+  #no-display {
+    display: none;
+  }
+}
+
+.icon-label {
+  font-size: medium;
+  font-weight: bolder;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .service {
+    flex-direction: column;
+    justify-content: start;
+    margin: 0;
+  }
+
+  .service:hover {
+    border: 1px solid #d3d3d3;
+  }
+
+  .top-nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .mobile-links {
+    display: none;
+  }
+
+  #desk {
+    display: none;
+  }
+
+  .speaker-sec {
+    display: contents;
+  }
+
+  .add-speaker-sec {
+    display: contents;
+  }
+
+  .add-speaker-sec1 {
+    display: contents;
+  }
+
+  .icon {
+    margin-top: 5%;
+  }
+
+  .icon-label {
+    padding: 10px 0;
+  }
+
+  .centre-b {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .para-a {
+    padding-top: 2%;
+  }
+
+  #logo {
+    min-width: 340px;
+    margin: 0 auto;
+  }
+
+  .contain {
+    display: flex;
+  }
+
+  .container {
+    max-width: 400px;
+  }
+
+  .container-img {
+    min-width: 400px;
+  }
+
+  #for-about {
+    display: none;
+  }
+
+  #for-end {
+    background-color: #272a31;
+    color: #d3d3d3;
+  }
+
+  .desktop-navbar {
+    display: flex;
+    color: white;
+    font-size: small;
+    font-family: 'Lato', sans-serif;
+
+    /* margin: 0 auto; */
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 110px;
+
+    /* justify-content: space-around; */
+
+    /* margin: 0 10%; */
+    gap: 1.5rem;
+  }
+
+  .background {
+    width: 100%;
+    background: #272a31;
+  }
+
+  .desktop-logo {
+    max-width: 100px;
+    height: auto;
+  }
+
+  .desktop-nav {
+    background: white;
+    color: #272a31;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 100px;
+    align-items: center;
+  }
+
+  .desktop-links {
+    line-height: 50px;
+    margin-right: 5px;
+    color: #272a31;
+    text-decoration: none;
+    font-size: medium;
+  }
+
+  #red {
+    color: #ec5242;
+  }
+
+  .border {
+    border: 2px solid #ec5242;
+    border-width: 3px;
+  }
+
+  .link {
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+
+  #mid {
+    color: #272a31;
+    padding: 8px 10px;
+    text-decoration: none;
+  }
+
+  .heading2 {
+    font-size: x-large;
+  }
+
+  .heading3 {
+    max-width: 595px;
+    font-size: xxx-large;
+  }
+
+  .font-description {
+    max-width: 500px;
+  }
+
+  .heading4 {
+    font-size: x-large;
+  }
+
+  .desktop-padding {
+    padding-left: 130px;
+    padding-top: 100px;
+  }
+
+  .icon-para {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.2rem;
+    padding: 0 5%;
+  }
+
+  #start {
+    display: none;
+  }
+
+  .desktop-text {
+    display: flex;
+    color: white;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: medium;
+    line-height: 50px;
+    padding: 10px 5px;
+    justify-content: center;
+  }
+
+  .wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    display: grid;
+    column-gap: 12%;
+  }
+
+  .chess {
+    width: 50%;
+  }
+
+  #more {
+    display: none;
+  }
+
+  .partner {
+    flex-wrap: nowrap;
+  }
+
+  .end {
+    justify-content: center;
+  }
+
+  .end-img {
+    margin: 0;
+  }
+
+  .end-para {
+    padding-left: 50px;
+  }
+}
