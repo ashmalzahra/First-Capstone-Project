@@ -1,5 +1,9 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
+body {
+  margin: 0;
+}
+
 #decoration {
   color: #d3d3d3;
   text-decoration: none;
@@ -28,6 +32,13 @@ a:hover {
   margin: 0;
 }
 
+#only-main {
+  background-image: url(images/text-background.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: space;
+}
+
 .heading2 {
   padding-left: 15px;
   padding-top: 70px;
@@ -35,10 +46,6 @@ a:hover {
   color: #ec5242;
   font-weight: 800;
   font-family: 'Lato', sans-serif;
-  background-image: url(images/text-background.jpg);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-repeat: space;
 }
 
 .front {
@@ -46,9 +53,6 @@ a:hover {
 }
 
 .heading3 {
-  background-image: url(images/text-background.jpg);
-
-  /* -webkit-text-fill-color: transparent; */
   padding-left: 15px;
   padding-right: 15px;
   font-size: 32px;
@@ -56,9 +60,6 @@ a:hover {
   font-weight: bolder;
   margin-top: 0;
   font-family: 'COCOGOOSE', sans-serif;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-repeat: space;
 }
 
 .font-description {
@@ -254,6 +255,12 @@ i {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding-top: 10%;
+}
+
+#no-width {
+  max-width: 595px;
+  margin: 0 auto;
 }
 
 .centre-b {
@@ -292,8 +299,11 @@ i {
 }
 
 #logo-line {
-  background-color: #f30000;
-  width: 10%;
+  width: 40px;
+  border-width: 1px;
+  border-color: #f3440d;
+  background-color: #f3440d;
+  margin-inline: auto;
 }
 
 .logo-img {
@@ -313,8 +323,11 @@ i {
 }
 
 #project-line {
-  background-color: #f30000;
-  width: 10%;
+  width: 40px;
+  border-width: 1px;
+  border-color: #f3440d;
+  background-color: #f3440d;
+  margin-inline: auto;
 }
 
 .container-para {
@@ -459,6 +472,10 @@ i {
   display: grid;
 }
 
+.add-speaker-sec1.open {
+  display: grid;
+}
+
 .mob-none {
   display: none;
 }
@@ -472,16 +489,22 @@ i {
 }
 
 @media (max-width: 767px) {
+  .contain {
+    width: fit-content;
+    display: contents;
+  }
+
   .mobile-links {
     display: none;
     flex-direction: column;
     width: 100%;
     height: 100%;
-    font-size: xxx-large;
+    font-size: x-large;
     font-weight: bold;
     color: white;
     background: #272a31;
-    padding: 60px;
+    padding: 75px;
+    position: fixed;
   }
 
   .desktop-navbar {
@@ -538,6 +561,10 @@ i {
   .desktop-links {
     display: none;
   }
+
+  #no-display {
+    display: none;
+  }
 }
 
 .icon-label {
@@ -571,8 +598,16 @@ i {
     display: none;
   }
 
+  .speaker-sec {
+    display: contents;
+  }
+
   .add-speaker-sec {
-    display: block;
+    display: contents;
+  }
+
+  .add-speaker-sec1 {
+    display: contents;
   }
 
   .icon {
@@ -581,6 +616,41 @@ i {
 
   .icon-label {
     padding: 10px 0;
+  }
+
+  .centre-b {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .para-a {
+    padding-top: 2%;
+  }
+
+  #logo {
+    min-width: 340px;
+    margin: 0 auto;
+  }
+
+  .contain {
+    display: flex;
+  }
+
+  .container {
+    max-width: 400px;
+  }
+
+  .container-img {
+    min-width: 400px;
+  }
+
+  #for-about {
+    display: none;
+  }
+
+  #for-end {
+    background-color: #272a31;
+    color: #d3d3d3;
   }
 
   .desktop-navbar {
@@ -606,7 +676,7 @@ i {
   }
 
   .desktop-logo {
-    max-width: 150px;
+    max-width: 100px;
     height: auto;
   }
 

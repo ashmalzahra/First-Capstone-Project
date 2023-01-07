@@ -4,6 +4,9 @@ const content = document.querySelector('.mobile-links');
 const link1 = document.querySelector('.mob-link1');
 const link2 = document.querySelector('.mob-link2');
 const link3 = document.querySelector('.mob-link3');
+const link4 = document.querySelector('.mob-link4');
+const link5 = document.querySelector('.mob-link5');
+const link6 = document.querySelector('.mob-link6');
 
 function showMenu() {
   content.style.display = 'flex';
@@ -20,6 +23,9 @@ closeBtn.addEventListener('click', hideMenu);
 link1.addEventListener('click', hideMenu);
 link2.addEventListener('click', hideMenu);
 link3.addEventListener('click', hideMenu);
+link4.addEventListener('click', hideMenu);
+link5.addEventListener('click', hideMenu);
+link6.addEventListener('click', hideMenu);
 
 function myFunction(desktopView) {
   if (desktopView.matches) {

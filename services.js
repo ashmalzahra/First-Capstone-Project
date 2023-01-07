@@ -38,6 +38,28 @@ const addExperts = [
 
 ];
 
+const addExperts2 = [
+
+  {
+    title: 'EASY CONNECTION',
+    email: 'info@techin.com',
+    paragraph: 'We offer you the Digital Marketing service based on your specific and real needs.',
+    img1: './images/creating-a-store-discount.jpg',
+    class: 'item',
+    btnClass: 'add-speaker-sec',
+  },
+
+  {
+    title: 'YOU DESIGN IT',
+    email: 'info@techin.com',
+    paragraph: 'Whatever your demand, we create, develop and execute customized strategies.',
+    img1: './images/cellphone-floats-above-light-blue-background.jpg',
+    class: 'item',
+    btnClass: 'add-speaker-sec',
+  },
+
+];
+
 const speakerSection = document.querySelector('.speaker-sec');
 
 let text1 = '';
@@ -83,3 +105,25 @@ addExperts.forEach((element) => {
 });
 
 addSpeakerSection.innerHTML = text2;
+
+const addSpeakerSection1 = document.querySelector('.add-speaker-sec1');
+
+let text3 = '';
+
+addExperts2.forEach((element) => {
+  text3 += `
+
+<div class=" item">
+    <div class="chess">
+    <img class="img-item" src="${element.img1}" alt="">
+    </div>
+    <div class="description">
+    <h5 class="description-heading">${element.title}</h5>
+    <a class="email" href="">${element.email}</a>
+    <hr class="chess-line">
+    <p class="description-paragraph">${element.paragraph}</p>
+    </div>
+</div>   `;
+});
+
+addSpeakerSection1.innerHTML = text3;
