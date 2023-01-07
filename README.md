@@ -40,8 +40,8 @@ Clone this repository to get started with the project, make sure to configure li
 - For stylelint errors run:<code>sudo npx stylelint "**/*.{css,scss}" --fix</code> for automatic fix.
 
 ### Live Link
-[Live Link](https://ashmalzahra.github.io/First-Capstone/)
-[Video walk-through](https://www.loom.com/share/c9d764e784b24cc28cead64b1d77cff1)
+- [Live Link](https://ashmalzahra.github.io/First-Capstone/)
+- [Video walk-through](https://www.loom.com/share/c9d764e784b24cc28cead64b1d77cff1)
 
 ## Authors
 
