@@ -47,8 +47,7 @@ Clone this repository to get started with the project, make sure to configure li
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Live Link
-- [Live Link](https://ashmalzahra.github.io/First-Capstone/)
-- [Video walk-through](https://www.loom.com/share/c9d764e784b24cc28cead64b1d77cff1)
+- [Live Link](https://ashmalzahra.github.io/First-Capstone-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
